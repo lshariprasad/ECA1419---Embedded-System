@@ -2,6 +2,9 @@
 
 An Arduino UNO educational prototype that monitors an MQ-2 gas-sensor signal, PIR motion, and ultrasonic distance. A buzzer warns when the gas reading exceeds a configurable threshold or when motion is detected with a nearby object.
 
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/7d638f59-0326-4b6f-ae5f-858e774e4a30" />
+
+
 ## Repository layout
 
 ```text
