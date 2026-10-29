@@ -1,0 +1,10 @@
+Expected traffic-light state sequence
+
+Start: RED (5000 ms)
+Then:  GREEN (5000 ms)
+Then:  YELLOW (2000 ms)
+Repeat: RED -> GREEN -> YELLOW -> RED -> ...
+
+Only one LED should be ON at a time.
+Serial Monitor baud rate: 9600.
+These are expected values, not recorded test measurements.

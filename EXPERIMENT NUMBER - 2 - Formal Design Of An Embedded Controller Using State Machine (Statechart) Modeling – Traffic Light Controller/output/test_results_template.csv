@@ -1,0 +1,6 @@
+Test ID,Test condition,Expected result,Observed result,Status (PASS/FAIL/PENDING),Notes / screenshot filename
+TC-01,Start simulation,RED LED on; yellow and green off,,PENDING,
+TC-02,After red interval (5 s),GREEN LED on; red and yellow off,,PENDING,
+TC-03,After green interval (5 s),YELLOW LED on; red and green off,,PENDING,
+TC-04,After yellow interval (2 s),RED LED on; sequence repeats,,PENDING,
+TC-05,Across transitions,Only one LED on at any time,,PENDING,

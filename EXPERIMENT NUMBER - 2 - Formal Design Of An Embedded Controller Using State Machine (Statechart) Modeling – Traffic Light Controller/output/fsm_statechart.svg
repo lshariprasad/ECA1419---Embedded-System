@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<rect width="1200" height="600" fill="#ffffff"/>
+<text x="600" y="58" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#182230">Experiment 2 — Traffic Light FSM Statechart</text>
+<text x="600" y="91" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" fill="#475467">RED (5 s) → GREEN (5 s) → YELLOW (2 s) → RED</text>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto"><path d="M0,0 L0,8 L10,4 z" fill="#344054"/></marker></defs>
+<rect x="70" y="220" width="250" height="130" rx="24" fill="#FEE4E2" stroke="#D92D20" stroke-width="4"/>
+<text x="195" y="270" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#B42318">RED</text>
+<text x="195" y="306" text-anchor="middle" font-family="Arial" font-size="19" fill="#7A271A">LED D8 = HIGH</text>
+<text x="195" y="332" text-anchor="middle" font-family="Arial" font-size="17" fill="#7A271A">Duration: 5 seconds</text>
+<rect x="475" y="220" width="250" height="130" rx="24" fill="#D1FADF" stroke="#039855" stroke-width="4"/>
+<text x="600" y="270" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#027A48">GREEN</text>
+<text x="600" y="306" text-anchor="middle" font-family="Arial" font-size="19" fill="#05603A">LED D10 = HIGH</text>
+<text x="600" y="332" text-anchor="middle" font-family="Arial" font-size="17" fill="#05603A">Duration: 5 seconds</text>
+<rect x="880" y="220" width="250" height="130" rx="24" fill="#FEF0C7" stroke="#DC6803" stroke-width="4"/>
+<text x="1005" y="270" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#B54708">YELLOW</text>
+<text x="1005" y="306" text-anchor="middle" font-family="Arial" font-size="19" fill="#93370D">LED D9 = HIGH</text>
+<text x="1005" y="332" text-anchor="middle" font-family="Arial" font-size="17" fill="#93370D">Duration: 2 seconds</text>
+<path d="M320 270 L465 270" stroke="#344054" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<text x="392" y="246" text-anchor="middle" font-family="Arial" font-size="17" fill="#344054">timer expires</text>
+<path d="M725 270 L870 270" stroke="#344054" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<text x="797" y="246" text-anchor="middle" font-family="Arial" font-size="17" fill="#344054">timer expires</text>
+<path d="M1005 350 L1005 445 L195 445 L195 360" stroke="#344054" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<text x="600" y="431" text-anchor="middle" font-family="Arial" font-size="17" fill="#344054">timer expires — repeat cycle</text>
+<circle cx="38" cy="285" r="13" fill="#344054"/><path d="M38 298 L60 298" stroke="#344054" stroke-width="3"/><text x="44" y="385" font-family="Arial" font-size="16" fill="#344054">Initial state: RED</text>
+<text x="600" y="535" text-anchor="middle" font-family="Arial" font-size="17" fill="#667085">One LED is ON in each state; transitions are timer-based and use millis().</text>
+</svg>
