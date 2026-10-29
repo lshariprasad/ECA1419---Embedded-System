@@ -1,5 +1,18 @@
 # Output and evidence
 
+# RED LED GLOW :
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191509" src="https://github.com/user-attachments/assets/5d9311f1-5253-49d5-8093-3a9253313a3e" />
+
+# YELLOW LED GLOW :
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191535" src="https://github.com/user-attachments/assets/b5e8960a-1ddb-412a-aff5-378668a0ece7" />
+
+# GREEN LED GLOW :
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191459" src="https://github.com/user-attachments/assets/10df8e4d-fa8a-4983-bc6c-755be947387e" />
+
+
 This folder contains the FSM diagram, reference circuit screenshot, expected sequence, and a test-results template.
 
 - `fsm_statechart.png` / `.svg`: FSM state-transition diagram.
