@@ -2,6 +2,14 @@
 
 **Lab title:** Formal Design of an Embedded Controller Using State Machine (Statechart) Modeling — Traffic Light Controller
 
+<img width="1919" height="1021" alt="Screenshot 2026-10-29 191553" src="https://github.com/user-attachments/assets/a81458ff-19bb-4d2f-b6c9-49d5954afb17" />
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191509" src="https://github.com/user-attachments/assets/afd857d8-e10a-4581-a4c1-69ea8e292482" />
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191535" src="https://github.com/user-attachments/assets/4e6969d2-75ff-43ac-89ba-4b62d5a0862e" />
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191459" src="https://github.com/user-attachments/assets/48266cac-32d4-401a-b555-01ee86b4e517" />
+
 ## Objective
 Design and simulate an Arduino UNO traffic-light controller using a finite-state machine (FSM) with RED, GREEN, and YELLOW states and timed transitions.
 
