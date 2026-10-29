@@ -24,7 +24,7 @@ This repository contains the code, simulations, circuit diagrams, outputs and re
 
 | Exp No | Experiment Name | Platform / Tools | Status |
 |:------:|-----------------|------------------|:------:|
-| 1 | Arduino Uno-Based Smart Home Safety and Occupancy Monitoring System Using Gas, PIR and Ultrasonic Sensors | Arduino Uno, Proteus | ⬜ Pending |
+| 1 | Arduino Uno-Based Smart Home Safety and Occupancy Monitoring System Using Gas, PIR and Ultrasonic Sensors | Arduino Uno, Proteus | ✅ Completed |
 | 2 | Formal Design of an Embedded Controller Using State Machine (Statechart) Modeling – Traffic Light Controller | Arduino Uno, Proteus, FSM | ⬜ Pending |
 | 3 | I²C-Based Health Monitoring Node for Pulse and Temperature Acquisition | Arduino Uno, LM75AD, Pulse Sensor, Proteus | ⬜ Pending |
 | 4 | Industrial HVAC Control Firmware: ADC Temperature Acquisition and Timer-Interrupt PWM Fan Control | Arduino Uno, Timer1, Proteus | ⬜ Pending |
