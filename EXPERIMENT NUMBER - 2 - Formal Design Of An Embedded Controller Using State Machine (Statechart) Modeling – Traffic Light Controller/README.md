@@ -5,6 +5,15 @@
 ## Objective
 Design and simulate an Arduino UNO traffic-light controller using a finite-state machine (FSM) with RED, GREEN, and YELLOW states and timed transitions.
 
+<img width="1919" height="1021" alt="Screenshot 2026-10-29 191553" src="https://github.com/user-attachments/assets/3bf6d5f1-685a-4ffe-bfb5-22b503bd4dcb" />
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191509" src="https://github.com/user-attachments/assets/def02d29-ca3b-4f2d-a31f-fc8d5a8872ef" />
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191535" src="https://github.com/user-attachments/assets/4a26c91e-eae2-44e8-89a2-0d3ee005925f" />
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 191459" src="https://github.com/user-attachments/assets/f512192c-b097-44c9-b861-7a3adc7c0ed0" />
+
+
 ## Repository structure
 
 ```text
