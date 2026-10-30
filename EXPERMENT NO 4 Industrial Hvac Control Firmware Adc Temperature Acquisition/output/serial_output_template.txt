@@ -1,0 +1,5 @@
+Expected Serial Monitor field format (illustrative only; replace with actual captured output):
+
+Time_ms=<elapsed_ms> | ADC=<average_adc_count> | Temperature_C=<filtered_temp> | Fan_stage=<OFF/LOW/MEDIUM/HIGH/MAXIMUM> | PWM_Duty_percent=<0..100>
+
+Capture actual output at 9600 baud after running the simulation. Do not report this template as measured data.

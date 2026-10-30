@@ -1,0 +1,6 @@
+Test ID,LM35 temperature setpoint (C),ADC raw average,Filtered temperature (C),Expected fan duty (%),Observed fan duty (%),Observed fan stage,Pass/Fail,Notes
+T01,23.0,,,0,,,Pending,Below OFF-to-LOW threshold
+T02,27.0,,,30,,,Pending,Crosses OFF-to-LOW threshold
+T03,32.0,,,50,,,Pending,Crosses LOW-to-MEDIUM threshold
+T04,37.0,,,75,,,Pending,Crosses MEDIUM-to-HIGH threshold
+T05,42.0,,,100,,,Pending,Crosses HIGH-to-MAX threshold

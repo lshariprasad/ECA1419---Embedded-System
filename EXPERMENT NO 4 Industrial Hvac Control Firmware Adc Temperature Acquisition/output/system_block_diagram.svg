@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="#f8fafc"/>
+<text x="500" y="48" text-anchor="middle" font-family="Arial" font-size="27" font-weight="bold" fill="#172554">Industrial HVAC Temperature / Fan Controller</text>
+<g font-family="Arial" text-anchor="middle">
+  <rect x="365" y="85" width="270" height="78" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="500" y="117" font-size="22" font-weight="bold" fill="#1e3a8a">LM35 Sensor</text><text x="500" y="143" font-size="15" fill="#1e3a8a">Analog voltage · 10 mV / °C nominal</text>
+  <path d="M500 163 V205" stroke="#475569" stroke-width="3"/><path d="M490 195 L500 207 L510 195" fill="none" stroke="#475569" stroke-width="3"/>
+  <rect x="320" y="210" width="360" height="105" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="500" y="247" font-size="22" font-weight="bold" fill="#14532d">Arduino UNO ADC (A0)</text><text x="500" y="276" font-size="16" fill="#14532d">8-sample averaging + temperature filter</text>
+  <path d="M500 315 V355" stroke="#475569" stroke-width="3"/><path d="M490 345 L500 357 L510 345" fill="none" stroke="#475569" stroke-width="3"/>
+  <rect x="280" y="360" width="440" height="115" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="500" y="397" font-size="22" font-weight="bold" fill="#78350f">Timer1 + Fan State Machine</text><text x="500" y="426" font-size="16" fill="#78350f">1 kHz hardware PWM · D9 / OC1A</text><text x="500" y="450" font-size="14" fill="#78350f">100 ms control task scheduled by overflow ISR</text>
+  <path d="M500 475 V515" stroke="#475569" stroke-width="3"/><path d="M490 505 L500 517 L510 505" fill="none" stroke="#475569" stroke-width="3"/>
+  <rect x="365" y="520" width="270" height="78" rx="12" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="500" y="551" font-size="22" font-weight="bold" fill="#831843">IRLZ44N Driver</text><text x="500" y="577" font-size="15" fill="#831843">12 V fan / motor power stage</text>
+</g>
+<text x="500" y="630" text-anchor="middle" font-family="Arial" font-size="13" fill="#64748b">Educational prototype · verify electrical ratings and wiring before hardware use</text>
+</svg>
