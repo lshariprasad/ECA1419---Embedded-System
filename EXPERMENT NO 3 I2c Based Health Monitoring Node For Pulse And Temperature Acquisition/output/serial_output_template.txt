@@ -1,0 +1,10 @@
+Experiment 3: I2C Health Monitoring Node
+LM75AD temperature + pulse sensor
+Check wiring and set heartbeat Test Pin HIGH in Proteus.
+
+Temperature: <observed temperature> C
+Pulse rate: <observed BPM> BPM
+------------------------------
+
+NOTE: This is a format template. Replace placeholders with actual observed
+simulation output. Do not treat these readings as clinical measurements.

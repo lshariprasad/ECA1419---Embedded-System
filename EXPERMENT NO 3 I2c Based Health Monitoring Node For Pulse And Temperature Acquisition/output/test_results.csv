@@ -1,0 +1,8 @@
+Test ID,Test description,Expected result,Observed result,Status,Notes
+T01,LM75AD I2C read at address 0x48,Temperature value is read and displayed,PENDING,PENDING,Verify A0 A1 A2 are LOW
+T02,No LM75AD response,Serial reports sensor error,PENDING,PENDING,Optional fault test
+T03,Heartbeat rising edges on D2,Valid beat intervals produce BPM,PENDING,PENDING,Use the Proteus model Test Pin stimulus
+T04,No heartbeat edges for 3 seconds,BPM clears to zero / --,PENDING,PENDING,Verify timeout behaviour
+T05,LCD temperature row,Shows Temp and value in degrees C,PENDING,PENDING,LM016L parallel 4-bit interface
+T06,LCD pulse row,Shows pulse BPM or --,PENDING,PENDING,Not a clinical measurement
+T07,Serial diagnostics,Updates at 9600 baud approximately once per second,PENDING,PENDING,Open Serial Monitor if available

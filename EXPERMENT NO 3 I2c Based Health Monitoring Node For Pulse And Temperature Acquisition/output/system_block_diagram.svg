@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <rect width="1200" height="620" fill="#f8fafc"/>
+  <text x="600" y="58" font-family="Arial" font-size="30" font-weight="700" text-anchor="middle" fill="#102a43">Experiment 3 — Health Monitoring Node</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="55" y="165" width="245" height="130" rx="18" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+    <text x="177" y="213" font-size="24" font-weight="700" fill="#0c4a6e">LM75AD</text>
+    <text x="177" y="250" font-size="18" fill="#0c4a6e">Temperature sensor</text>
+    <text x="177" y="276" font-size="16" fill="#0c4a6e">I²C: SDA / SCL</text>
+
+    <rect x="55" y="365" width="245" height="130" rx="18" fill="#fce7f3" stroke="#be185d" stroke-width="3"/>
+    <text x="177" y="413" font-size="24" font-weight="700" fill="#831843">Heart Beat Sensor</text>
+    <text x="177" y="450" font-size="18" fill="#831843">Simulated pulse output</text>
+    <text x="177" y="476" font-size="16" fill="#831843">Digital signal → D2</text>
+
+    <rect x="455" y="245" width="285" height="190" rx="22" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+    <text x="597" y="305" font-size="27" font-weight="700" fill="#14532d">Arduino UNO</text>
+    <text x="597" y="347" font-size="19" fill="#14532d">I²C acquisition</text>
+    <text x="597" y="379" font-size="19" fill="#14532d">Pulse edge timing</text>
+    <text x="597" y="411" font-size="19" fill="#14532d">BPM calculation</text>
+
+    <rect x="895" y="165" width="245" height="130" rx="18" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+    <text x="1017" y="213" font-size="24" font-weight="700" fill="#78350f">LM016L LCD</text>
+    <text x="1017" y="250" font-size="18" fill="#78350f">16×2 display</text>
+    <text x="1017" y="276" font-size="16" fill="#78350f">4-bit parallel mode</text>
+
+    <rect x="895" y="365" width="245" height="130" rx="18" fill="#ede9fe" stroke="#6d28d9" stroke-width="3"/>
+    <text x="1017" y="413" font-size="24" font-weight="700" fill="#4c1d95">Serial Monitor</text>
+    <text x="1017" y="450" font-size="18" fill="#4c1d95">Debug readings</text>
+    <text x="1017" y="476" font-size="16" fill="#4c1d95">9600 baud</text>
+  </g>
+  <g stroke="#334155" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 230 H455"/><path d="M300 430 H370 V390 H455"/>
+    <path d="M740 300 H820 V230 H895"/><path d="M740 385 H820 V430 H895"/>
+  </g>
+  <g fill="#334155"><path d="M444 220 L455 230 L444 240 Z"/><path d="M444 380 L455 390 L444 400 Z"/><path d="M884 220 L895 230 L884 240 Z"/><path d="M884 420 L895 430 L884 440 Z"/></g>
+  <text x="600" y="555" font-family="Arial" font-size="17" text-anchor="middle" fill="#475569">Note: The temperature sensor uses I²C. The LM016L display shown here is parallel, not I²C.</text>
+</svg>
