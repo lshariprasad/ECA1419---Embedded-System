@@ -2,6 +2,13 @@
 
 An Arduino UNO educational prototype that reads an LM75AD temperature sensor over I²C, detects digital pulse edges from a Proteus Heart Beat Sensor model, calculates an estimated beats-per-minute (BPM) value, and displays readings on an LM016L 16×2 LCD.
 
+<img width="1919" height="1020" alt="Screenshot 2026-10-29 211633" src="https://github.com/user-attachments/assets/f443bc36-b2ab-4655-9f6f-0d0e80c2339c" />
+
+<img width="1919" height="1019" alt="Screenshot 2026-10-29 221116" src="https://github.com/user-attachments/assets/8da3b30c-c491-4430-91ac-347fabc2703d" />
+
+<img width="1919" height="1021" alt="Screenshot 2026-10-29 221126" src="https://github.com/user-attachments/assets/8278b878-1ab1-4849-941b-d48af781849e" />
+
+
 > **Important interface note:** In the supplied schematic, the LM75AD temperature sensor uses I²C (SDA/SCL), but the LM016L display is wired in 4-bit parallel mode. Therefore, the sensor link is I²C; the LCD link is not. If the assessment requires the display module itself to communicate over I²C, replace LM016L with an I²C-backpack LCD model and update the sketch accordingly.
 >
 > **Safety note:** This is a classroom simulation/prototype, not a medical device. Pulse values are estimated from a simulated digital signal and are not suitable for diagnosis or clinical decisions. The LM75AD measures local sensor temperature, not necessarily human body temperature.
