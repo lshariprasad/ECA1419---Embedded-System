@@ -1,5 +1,12 @@
 # Experiment 8 – Modeling Clock-Driven Concurrent Processes Using `SC_THREAD` and `wait()` in SystemC
 
+<img width="1919" height="1024" alt="Screenshot 2026-11-16 143749" src="https://github.com/user-attachments/assets/649d3a1d-85a6-4cac-8141-c82f76d6d406" />
+
+<img width="1209" height="918" alt="Screenshot 2026-11-16 143704" src="https://github.com/user-attachments/assets/8b415a18-527c-48c7-a6d6-f62d06243651" />
+
+
+
+
 ![Experiment](https://img.shields.io/badge/Experiment-08-blue)
 ![Platform](https://img.shields.io/badge/Platform-SystemC%203.0.2-green)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B17-orange)
