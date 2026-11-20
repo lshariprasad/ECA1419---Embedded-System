@@ -1,0 +1,29 @@
+==================================================
+ EXPERIMENT 9: SYSTEMC TLM PRODUCTION LINE
+==================================================
+
+[TLM INITIATOR] Sending product data 555 at 1 ns
+
+[TLM TARGET] Received WRITE transaction at 1 ns
+[TLM TARGET] Generic payload data = 555
+[PRODUCTION LINE] Starting product journey
+  [conveyor_1] transporting product 555 at 1 ns
+  [processing_station_1] processing product 555 at 2 ns
+  [buffer_1] stored product 555 (1/2) at 3 ns
+  [buffer_1] released product 555 (0/2) at 4 ns
+  [conveyor_2] transporting product 555 at 4 ns
+  [inspection_station_2] processing product 555 at 5 ns
+  [buffer_2] stored product 555 (1/2) at 6 ns
+  [buffer_2] released product 555 (0/2) at 7 ns
+  [conveyor_3] transporting product 555 at 7 ns
+  [packaging_station_3] processing product 555 at 8 ns
+  [buffer_3] stored product 555 (1/2) at 9 ns
+  [buffer_3] released product 555 (0/2) at 10 ns
+[PRODUCTION LINE] Product 555 completed all three stages at 10 ns
+[TLM TARGET] Response: TLM_OK_RESPONSE
+
+[TLM INITIATOR] Target response received: OK
+[TLM INITIATOR] Product 555 transaction completed at 10 ns
+
+Simulation finished at 10 ns
+==================================================

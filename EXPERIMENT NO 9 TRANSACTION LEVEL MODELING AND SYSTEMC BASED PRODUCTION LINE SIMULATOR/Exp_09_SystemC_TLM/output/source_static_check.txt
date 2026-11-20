@@ -1,0 +1,14 @@
+EXPERIMENT 9 – STATIC SOURCE CHECK
+==================================
+
+These checks inspect source contents only; they are not a compiler or simulation run.
+PASS  Initiator socket declared
+PASS  Target socket declared
+PASS  Generic payload created
+PASS  b_transport registered and called
+PASS  Required payload value 555
+PASS  Successful TLM response set
+PASS  Conveyors, stations and buffers modeled
+
+Compilation/runtime verification: PENDING on the Windows MSYS2 UCRT64 machine.
+Proteus verification: PENDING; supplied screenshot displays 2 Error(s).
