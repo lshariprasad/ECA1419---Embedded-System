@@ -32,7 +32,7 @@ This repository contains the code, simulations, circuit diagrams, outputs and re
 | 6 | Structured Embedded C: Modular Header/Source Driver for Seven-Segment Display Using LPC2148 Kit | LPC2148, Embedded C | ⬜ Pending |
 | 7 | Serial Transmission and Reception Using On-Chip UART in LPC2148 Kit | LPC2148, UART0 | ⬜ Pending |
 | 8 | Modeling Clock-Driven Concurrent Processes Using SC_THREAD and wait() in SystemC | SystemC (C++) | ✅ Completed  |
-| 9 | Transaction Level Modeling (TLM) and SystemC-Based Production Line Simulator | SystemC TLM-2.0 | ⬜ ✅ Completed |
+| 9 | Transaction Level Modeling (TLM) and SystemC-Based Production Line Simulator | SystemC TLM-2.0 | ✅ Completed |
 | 10 | Python Scripting for Embedded Test Automation (PySerial) and Scripted Firmware Flashing | ESP32, Python, PySerial, esptool | ⬜ Pending |
 | 11 | RTOS Task Creation, Task States and Priority Assignment Using FreeRTOS | FreeRTOS, ESP32 | ⬜ Pending |
 | 12 | Task Synchronization and Shared Data Protection Using Binary Semaphore, Counting Semaphore and Mutex Using FreeRTOS | FreeRTOS, ESP32 | ⬜ Pending |
