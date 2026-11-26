@@ -2,11 +2,11 @@
 
 ![Course](https://img.shields.io/badge/Course-ECA14-blue)
 ![Experiments](https://img.shields.io/badge/Experiments-17-orange)
-![Progress](https://img.shields.io/badge/Completed-0%2F17-red)
+![Progress](https://img.shields.io/badge/Completed-6%2F17-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-Arduino%20%7C%20LPC2148%20%7C%20ESP32%20%7C%20SystemC-green)
 ![Language](https://img.shields.io/badge/Language-Embedded%20C%20%7C%20C%2B%2B%20%7C%20Python-yellow)
 
-OBE (Outcome Based Education) lab record for **ECA14 – Embedded Systems**, B.E. Electrical and Electronics Engineering, SIMATS Engineering, Saveetha Institute of Medical and Technical Sciences.
+OBE (Outcome Based Education) lab record for **ECA14 – Embedded Systems**, B.Tech Electrical and Electronics Engineering, SIMATS Engineering, Saveetha Institute of Medical and Technical Sciences.
 
 **Pre-requisite:** ECA10 – Microprocessor and Microcontroller
 
@@ -14,13 +14,13 @@ OBE (Outcome Based Education) lab record for **ECA14 – Embedded Systems**, B.E
 
 ## 📌 About This Repository
 
-This repository contains the code, simulations, circuit diagrams, outputs and reflections for all 17 experiments of the ECA14 Embedded Systems lab. The experiments move from sensor-based Arduino systems, to bare-metal LPC2148 programming, to system-level modeling in SystemC, to test automation in Python, and finally to real-time multitasking with FreeRTOS.
+This repository tracks all 17 experiments in the ECA14 Embedded Systems lab. The files currently committed cover Experiments 1–4 and 8–9 (six experiment folders). Experiments 5–7 and 10–17 remain listed in the tracker but their experiment folders and implementation files have not yet been added here. The lab spans Arduino sensor systems, LPC2148 programming, SystemC modeling, Python test automation and FreeRTOS.
 
 ---
 
 ## 📊 Progress Tracker
 
-**Overall Progress: 0 / 17 completed**
+**Overall Progress: 6 / 17 completed** (based on the six experiment folders currently committed)
 
 | Exp No | Experiment Name | Platform / Tools | Status |
 |:------:|-----------------|------------------|:------:|
@@ -108,40 +108,17 @@ This repository contains the code, simulations, circuit diagrams, outputs and re
 
 ## 📁 Repository Structure
 
-```
-ECA14-Embedded-Systems/
-│
-├── README.md
-├── Exp_01_Smart_Home_Safety/
-│   ├── code/
-│   ├── proteus/
-│   ├── output/
-│   └── reflection.md
-├── Exp_02_Traffic_Light_FSM/
-├── Exp_03_I2C_Health_Monitor/
-├── Exp_04_HVAC_PWM_Control/
-├── Exp_05_LPC2148_Switch_LED/
-├── Exp_06_Seven_Segment_Driver/
-├── Exp_07_LPC2148_UART/
-├── Exp_08_SystemC_SC_THREAD/
-├── Exp_09_SystemC_TLM/
-├── Exp_10_PySerial_Automation/
-├── Exp_11_FreeRTOS_Tasks/
-├── Exp_12_FreeRTOS_Semaphore_Mutex/
-├── Exp_13_FreeRTOS_Queues/
-├── Exp_14_FreeRTOS_Timers_EventGroups/
-├── Exp_15_FreeRTOS_ISR_Deferred/
-├── Exp_16_FreeRTOS_Priority_Inversion/
-├── Exp_17_FreeRTOS_Memory_Management/
-└── Lab_Record/
-    └── ECA14_Embedded_Systems_Lab_Record.pdf
-```
+The experiment folders currently committed to this repository are:
 
-Each experiment folder contains:
-- `code/` – source files (`.ino`, `.c`, `.h`, `.cpp`, `.py`)
-- `proteus/` – Proteus project and circuit screenshot (Exp 1–4)
-- `output/` – simulation results, serial monitor and terminal screenshots
-- `reflection.md` – short reflection on the experiment
+- `Experment No - 1 - Arduino Uno-Based Smart Home Safety and Occupancy Monitoring System Using Gas, PIR and Ultrasonic Sensors/`
+- `EXPERIMENT NUMBER - 2 - Formal Design Of An Embedded Controller Using State Machine (Statechart) Modeling – Traffic Light Controller/`
+- `EXPERMENT NO 3 I2c Based Health Monitoring Node For Pulse And Temperature Acquisition/`
+- `EXPERMENT NO 4 Industrial Hvac Control Firmware Adc Temperature Acquisition/`
+- `EXPERIMENT NUMBER 8 Modeling Clock-Driven Concurrent Processes Using Sc_Thread And Wait () In Systemc/`
+- `EXPERIMENT NO 9 TRANSACTION LEVEL MODELING AND SYSTEMC BASED PRODUCTION LINE SIMULATOR/`
+- `output/` – shared output material
+
+The contents vary by experiment. Open the README or evidence index inside an experiment folder for its actual source files, circuit references, simulation material and run notes. Experiments 5–7 and 10–17 are planned in the tracker but are not yet represented by committed experiment folders.
 
 ---
 
@@ -203,8 +180,8 @@ Criteria cover circuit or hardware configuration, program development, implement
 
 ## 👤 Author
 
-**Dev**
-B.E. Electrical and Electronics Engineering
+**Hari Prasad L S**
+B.Tech Electrical and Electronics Engineering
 SIMATS Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai
 
 🔗 GitHub: [github.com/lshariprasad](https://github.com/lshariprasad)
