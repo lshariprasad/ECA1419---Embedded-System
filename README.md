@@ -28,19 +28,19 @@ This repository tracks all 17 experiments in the ECA14 Embedded Systems lab. The
 | 2 | Formal Design of an Embedded Controller Using State Machine (Statechart) Modeling – Traffic Light Controller | Arduino Uno, Proteus, FSM | ✅ Completed |
 | 3 | I²C-Based Health Monitoring Node for Pulse and Temperature Acquisition | Arduino Uno, LM75AD, Pulse Sensor, Proteus | ✅ Completed |
 | 4 | Industrial HVAC Control Firmware: ADC Temperature Acquisition and Timer-Interrupt PWM Fan Control | Arduino Uno, Timer1, Proteus | ✅ Completed |
-| 5 | Program to Read the Switch and Display in the LEDs Using LPC2148 Kit | LPC2148, Embedded C | ⬜ Pending |
-| 6 | Structured Embedded C: Modular Header/Source Driver for Seven-Segment Display Using LPC2148 Kit | LPC2148, Embedded C | ⬜ Pending |
-| 7 | Serial Transmission and Reception Using On-Chip UART in LPC2148 Kit | LPC2148, UART0 | ⬜ Pending |
+| 5 | Program to Read the Switch and Display in the LEDs Using LPC2148 Kit | LPC2148, Embedded C | ✅ Completed |
+| 6 | Structured Embedded C: Modular Header/Source Driver for Seven-Segment Display Using LPC2148 Kit | LPC2148, Embedded C | ✅ Completed |
+| 7 | Serial Transmission and Reception Using On-Chip UART in LPC2148 Kit | LPC2148, UART0 | ✅ Completed |
 | 8 | Modeling Clock-Driven Concurrent Processes Using SC_THREAD and wait() in SystemC | SystemC (C++) | ✅ Completed  |
 | 9 | Transaction Level Modeling (TLM) and SystemC-Based Production Line Simulator | SystemC TLM-2.0 | ✅ Completed |
-| 10 | Python Scripting for Embedded Test Automation (PySerial) and Scripted Firmware Flashing | ESP32, Python, PySerial, esptool | ⬜ Pending |
-| 11 | RTOS Task Creation, Task States and Priority Assignment Using FreeRTOS | FreeRTOS, ESP32 | ⬜ Pending |
-| 12 | Task Synchronization and Shared Data Protection Using Binary Semaphore, Counting Semaphore and Mutex Using FreeRTOS | FreeRTOS, ESP32 | ⬜ Pending |
-| 13 | Inter-Task Communication Using Message Queues, Mailboxes and Pipes (Stream Buffers) – Producer–Consumer Using FreeRTOS | FreeRTOS, ESP32 | ⬜ Pending |
-| 14 | RTOS Timer Functions and Event Groups Using FreeRTOS | FreeRTOS, ESP32 | ⬜ Pending |
-| 15 | Interrupt Service Routines in an RTOS Environment: Deferred Processing and Interrupt Priority Handling | FreeRTOS, ESP32 | ⬜ Pending |
-| 16 | Priority Inversion and Priority Inheritance Protocol for Resource Sharing Using FreeRTOS | FreeRTOS, ESP32 | ⬜ Pending |
-| 17 | Memory Management in RTOS: Heap Schemes, Stack High-Water Mark and Memory Pools | FreeRTOS, ESP32 | ⬜ Pending |
+| 10 | Python Scripting for Embedded Test Automation (PySerial) and Scripted Firmware Flashing | ESP32, Python, PySerial, esptool | ✅ Completed |
+| 11 | RTOS Task Creation, Task States and Priority Assignment Using FreeRTOS | FreeRTOS, ESP32 | ✅ Completed |
+| 12 | Task Synchronization and Shared Data Protection Using Binary Semaphore, Counting Semaphore and Mutex Using FreeRTOS | FreeRTOS, ESP32 | ✅ Completed |
+| 13 | Inter-Task Communication Using Message Queues, Mailboxes and Pipes (Stream Buffers) – Producer–Consumer Using FreeRTOS | FreeRTOS, ESP32 | ✅ Completed |
+| 14 | RTOS Timer Functions and Event Groups Using FreeRTOS | FreeRTOS, ESP32 | ✅ Completed |
+| 15 | Interrupt Service Routines in an RTOS Environment: Deferred Processing and Interrupt Priority Handling | FreeRTOS, ESP32 | ✅ Completed |
+| 16 | Priority Inversion and Priority Inheritance Protocol for Resource Sharing Using FreeRTOS | FreeRTOS, ESP32 | ✅ Completed |
+| 17 | Memory Management in RTOS: Heap Schemes, Stack High-Water Mark and Memory Pools | FreeRTOS, ESP32 | ✅ Completed |
 
 **Legend:** ✅ Completed &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ⬜ Pending
 
